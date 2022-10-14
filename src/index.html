@@ -16,8 +16,14 @@
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
 
   <meta name="theme-color" content="#fafafa">
 </head>
@@ -28,28 +34,30 @@
   <header>
     <!--Navigation Bar-->
     <nav>
-      <img src="img/BioXcel_Logo_KO@2x.png" alt="Company Logo">
-      <img src="img/Home.svg" alt="Home Logo">
-      <h4>Identification of Agitation</h4>
-      <h4>Cooperative De-escalation</h4>
-      <h4>Intervention Approaches</h4>
-      <h4>Expert Perspectives</h4>
-      <button>GET UPDATES</button>
-      <img src="img/Facebook_icon.svg" alt="Facebook icon">
-      <img src="img/LinkedIN_icon.svg" alt="Linkedin icon">
-      <img src="img/Twitter_icon.svg" alt="Twitter icon">
-      <img src="img/Group%201934.svg" alt="Gmail icon">
+      <img class="nav_logo" src="img/BioXcel_Logo_KO@2x.png" alt="Company Logo">
+      <div class="header_nav-index">
+        <img class="nav_icon" src="img/Home.svg" alt="Home Logo">
+        <h4>Identification of Agitation</h4>
+        <h4>Cooperative De-escalation</h4>
+        <h4>Intervention Approaches</h4>
+        <h4>Expert Perspectives</h4>
+        <button class="nav_button"></button>
+        <img class="nav_icon" src="img/Facebook_icon.svg" alt="Facebook icon">
+        <img class="nav_icon" src="img/LinkedIN_icon.svg" alt="Linkedin icon">
+        <img class="nav_icon" src="img/Twitter_icon.svg" alt="Twitter icon">
+        <img class="nav_icon" src="img/Group%201934.svg" alt="Gmail icon">
+      </div>
     </nav>
     <!--Horizontal Bar Info-->
-    <div>
+    <div class="header_infoHBar">
       <img src="img/Group%202082@2x.png" alt="Information Company">
     </div>
     <!--Center Content-->
-    <div>
-      <div>
+    <div class="header_center">
+      <div class="header_center-left">
         <img src="img/Mask%20Group%2027@2x.png" alt="Thermometer">
       </div>
-      <div>
+      <div class="header_center-right">
         <img src="img/title.ong@2x.png" alt="Comercial phrase">
         <p>Learn how identification and intervention can help keep the situation cool. Help patients regain control safely, using a cooperative approach.<sup>1,2</sup></p>
       </div>
@@ -61,34 +69,42 @@
 
 
   <!--Sections Cards------------------------------------------------>
-  <section>
+  <section class="SectionCards">
     <!--Card1-->
-    <div>
-      <img src="img/ID_icon.svg" alt="icon people">
-      <h3>Know the signs for</h3>
-      <h2>PROMPT IDENTIFICATION OF AGITATION</h2>
-      <img src="img/Arrow.svg" alt="icon arow right">
+    <div class="SectionCards_cardCover">
+      <div class="SectionCards_card">
+        <img src="img/ID_icon.svg" alt="icon people">
+        <h3>Know the signs for</h3>
+        <h2>PROMPT IDENTIFICATION OF AGITATION</h2>
+        <img class="SectionCards_card-iconArow" src="img/Arrow.svg" alt="icon arow right">
+      </div>
     </div>
     <!--Card2-->
-    <div>
-      <img src="img/Strategies_icon.svg" alt="icon selecter">
-      <h3>Find Out About</h3>
-      <h2>strategies to calm cooperatively</h2>
-      <img src="img/Arrow.svg" alt="icon arow right">
+    <div class="SectionCards_cardCover">
+      <div class="SectionCards_card">
+        <img src="img/Strategies_icon.svg" alt="icon selecter">
+        <h3>Find Out About</h3>
+        <h2>strategies to calm cooperatively</h2>
+        <img class="SectionCards_card-iconArow" src="img/Arrow.svg" alt="icon arow right">
+      </div>
     </div>
     <!--Card3-->
-    <div>
-      <img src="img/Intervention_icon.svg" alt="icon hand book">
-      <h3>Learn MORE about</h3>
-      <h2>intervention approaches</h2>
-      <img src="img/Arrow.svg" alt="icon arow right">
+    <div class="SectionCards_cardCover">
+      <div class="SectionCards_card">
+        <img src="img/Intervention_icon.svg" alt="icon hand book">
+        <h3>Learn MORE about</h3>
+        <h2>intervention approaches</h2>
+        <img class="SectionCards_card-iconArow" src="img/Arrow.svg" alt="icon arow right">
+      </div>
     </div>
     <!--Card4-->
-    <div>
-      <img src="img/Asset%202@4x@2x.png" alt="icon messages">
-      <h3>EXPLORE</h3>
-      <h2>EXPERT PERSPECTIVES</h2>
-      <img src="img/Arrow.svg" alt="icon arow right">
+    <div class="SectionCards_cardCover">
+      <div class="SectionCards_card">
+        <img src="img/Asset%202@4x@2x.png" alt="icon messages">
+        <h3>EXPLORE</h3>
+        <h2>EXPERT PERSPECTIVES</h2>
+        <img class="SectionCards_card-iconArow" src="img/Arrow.svg" alt="icon arow right">
+      </div>
     </div>
   </section>
 
@@ -97,13 +113,13 @@
 
 
   <!--Section updates & References-------------------------------------->
-  <section>
-    <div>
+  <section class="SectionUpdateRef">
+    <div class="SectionUpdateRef_update">
       <h2>Get updates</h2>
       <p>Sign up for the latest evidence, information, and resources on de-escalation and intervention approaches.</p>
       <button>Sign up</button>
     </div>
-    <div>
+    <div class="SectionUpdateRef_refer">
       <p><strong>References:</strong></p>
       <p><strong>1.</strong> Richmond JS, Berlin JS, Fishkind AB, et al. Verbal de-escalation of the agitated patient: consensus statement of the American Association for Emergency Psychiatry Project BETA De-escalation Workgroup. West J Emerg Med. 2012;13(1):17-25. doi:10.5811/westjem.2011.9.6864 2. Martinez-Raga J, Amore M, Di Sciascio G, et al. 1st international experts’ meeting on agitation: conclusions regarding the current and ideal management paradigm of agitation. Front Psychiatry. 2018;9:54. doi:10.3389/fpsyt.2018.00054</p>
     </div>
@@ -115,7 +131,7 @@
 
   <!--Footer-->
   <footer>
-    <div>
+    <div class="footer_nav">
       <div>
         <h4>Privacy Policy</h4>
         <h4>Disclaimer</h4>
@@ -125,6 +141,7 @@
       <p>This website contains information intended for US healthcare professionals only.</p>
     </div>
     <img src="img/BioXcel_Logo_KO@2x.png" alt="Company logo">
+    <p>© 2021 BioXcel Therapeutics, Inc. All rights reserved. US-NP-2100047 07-2021</p>
   </footer>
 
 
@@ -133,6 +150,7 @@
   <script src="js/vendor/modernizr-{{MODERNIZR_VERSION}}.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/bootstrap.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
@@ -140,6 +158,9 @@
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+
 
 </body>
 
