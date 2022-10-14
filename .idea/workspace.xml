@@ -2,28 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9dba4c05-9de0-4bf8-96ce-0843641f9540" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/Asset 2@4x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/Asset 2@4x@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/BioXcel_Logo_KO.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/BioXcel_Logo_KO@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/Group 2082.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/Group 2082@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/Mask Group 27.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/Mask Group 27@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/title.ong.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/title.ong@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/Arrow.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/Facebook_icon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/Get Updates btn.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/Group 1934.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/Home.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/ID_icon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/Intervention_icon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/LinkedIN_icon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/Strategies_icon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/Twitter_icon.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/Mask Group 29.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/Mask Group 29@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/normalize.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,11 +20,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
+            <state relative-caret-position="2013">
               <caret line="126" column="40" lean-forward="false" selection-start-line="126" selection-start-column="40" selection-end-line="126" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -109,6 +102,12 @@
               <item name="ProjectTestHome" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProjectTestHome" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectTestHome" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectTestHome" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -127,6 +126,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\QNecesitas\WebMaker\TestJaccsoft\ProjectTestHome\src\img" />
+      <recent name="D:\QNecesitas\WebMaker\TestJaccsoft\ProjectTestHome\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -151,7 +151,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665716769695</updated>
-      <workItem from="1665716774084" duration="6865000" />
+      <workItem from="1665716774084" duration="7099000" />
     </task>
     <task id="LOCAL-00001" summary="Init the project and a first html structuring">
       <created>1665721215182</created>
@@ -160,11 +160,18 @@
       <option name="project" value="LOCAL" />
       <updated>1665721215182</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add image resources">
+      <created>1665724446597</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665724446597</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6865000" />
+    <option name="totallyTimeSpent" value="7099000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -223,7 +230,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init the project and a first html structuring" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init the project and a first html structuring" />
+    <MESSAGE value="Add image resources" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add image resources" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -261,8 +269,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
+        <state relative-caret-position="2013">
           <caret line="126" column="40" lean-forward="false" selection-start-line="126" selection-start-column="40" selection-end-line="126" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
           <folding />
         </state>
       </provider>
