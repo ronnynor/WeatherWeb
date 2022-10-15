@@ -231,6 +231,31 @@ header .nav_icon{
 
 
 
+
+/*Popup menu*/
+.popup_video{
+  width: 800px;
+  height: 400px;
+  margin-left: -50px;
+}
+
+.modal-dialog{
+  background-color:transparent;
+}
+.modal-fade{
+  background-color:transparent;
+}
+.modal-body{
+  background-color:transparent;
+}
+
+.btn-close{
+  position: fixed;
+}
+
+
+
+
 /*Section cards------   -------------------> */
 .SectionCards{
   margin-left: 42px;

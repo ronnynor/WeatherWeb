@@ -1,3 +1,4 @@
+//Scroll animations
 $(function () {
   var scroll=$(document).scrollTop();
   var navHeight=$('#navId').outerHeight();

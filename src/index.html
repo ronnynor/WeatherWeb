@@ -41,7 +41,7 @@
         <h4>Cooperative De-escalation</h4>
         <h4>Intervention Approaches</h4>
         <h4>Expert Perspectives</h4>
-        <button class="nav_button">Get Updates</button>
+        <button class="nav_button" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Get Updates</button>
         <img class="nav_icon" src="img/Facebook_icon.svg" alt="Facebook icon">
         <img class="nav_icon" src="img/LinkedIN_icon.svg" alt="Linkedin icon">
         <img class="nav_icon" src="img/Twitter_icon.svg" alt="Twitter icon">
@@ -100,9 +100,21 @@
 
 
 
+  <!--Popup menu-->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <iframe class="popup_video" src="https://player.vimeo.com/video/253989945?h=c6db007fe5&color=ef0800&title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
   <!--Sections Cards------------------------------------------------>
-  <section class="SectionCards">
+  <section class="SectionCards" >
     <!--Card1-->
     <div class="SectionCards_cardCover">
       <div class="SectionCards_card">
