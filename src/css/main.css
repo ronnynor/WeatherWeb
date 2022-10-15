@@ -94,7 +94,6 @@ header{
   flex-direction: column;
   width: 100%;
   height: 824px;
-  /*background: transparent url("../img/Mask Group 29@2x.png") 0% 0% no-repeat padding-box;*/
   opacity: 1;
   background-image: url("../img/Mask Group 29@2x.png");
   background-size: cover;
@@ -110,10 +109,17 @@ nav{
   margin-top: 20px;
   width: 1282px;
   height: 77px;
+  margin-left: 42px;
+  margin-right: 42px;
   background: var(--dark-gray) 0% 0% no-repeat padding-box;
   border-radius: 39px;
-  opacity: 1;
+  position: fixed;
+  left: 0;
+  top: 0;
+  transition: top .6s;
+  overflow: hidden;
 }
+
 
 nav h4{
   width: 94px;
@@ -133,12 +139,20 @@ header .nav_icon{
 }
 
 .nav_button{
-  background-repeat: no-repeat;
-  background-size: cover;
-  border: none;
-  width: 130px;  height: 42px;
+  width: 128px;
+  height: 40px;
   background: transparent;
-  background-image: url("../img/Get Updates btn.svg");
+  border-radius: 4px;
+  border: solid 2px var(--white);
+  color: var(--white);
+  text-align: center;
+  font: normal normal bold 14px/18px Roboto;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+}
+
+.nav_bar_icon{
+  display: none;
 }
 
 .nav_logo{
@@ -158,7 +172,7 @@ header .nav_icon{
   width: 100%;
   display: flex;
   justify-content: flex-end;
-  margin-top: 20px;
+  margin-top: 117px;
 }
 
 .header_infoHBar img{
@@ -171,7 +185,30 @@ header .nav_icon{
 .header_center{
   display: flex;
   justify-content: space-around;
-  margin-top: 187px;
+  margin-top: 50px;
+}
+
+.header_center-right{
+  margin-top: 30px;
+  width: 711px;
+}
+
+.header_center-right p{
+  margin-left: 44px;
+  width: 582px;
+  height: 32px;
+  text-align: left;
+  font: normal normal 300 24px/28px Roboto;
+  letter-spacing: -0.14px;
+  color: var(--white);
+}
+
+.header_center-rightUp{
+  margin-bottom: -28px;
+}
+
+.header_center-rightDw{
+  margin-top: 20px;
 }
 
 .header_center-left, .header_center-left img{
@@ -180,25 +217,21 @@ header .nav_icon{
 }
 
 
-.header_center-right, .header_center-right img{
+ .header_center-right img{
   width: 711px;
   height: 259px;
+
 }
 
-.header_center-right p{
-  width: 511px;
-  height: 32px;
-  text-align: left;
-  font: normal normal 300 24px/28px Roboto;
-  letter-spacing: -0.14px;
-  color: var(--white);
+
+.header_info-middleCover{
+  display: none;
 }
 
 
 
 
-
-/*Section cards-------------------------> */
+/*Section cards------   -------------------> */
 .SectionCards{
   margin-left: 42px;
   margin-right: 42px;
@@ -214,10 +247,13 @@ header .nav_icon{
   background-color: var(--dark-gray);
   border: solid 8px var(--dark-gray);
   display: grid;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .SectionCards_card{
   width: 100%;
+  border-radius: 4px;
   height: 100%;
   background-image: url("../img/Secondary texture container.png");
   background-repeat: no-repeat;
@@ -237,7 +273,8 @@ header .nav_icon{
   width: 46px;
   height: 25px;
   justify-self: flex-end;
-  margin-bottom: 8px;
+  margin-bottom: 20px;
+  margin-top: auto;
 }
 
 .SectionCards_card h3{
@@ -260,6 +297,7 @@ header .nav_icon{
   font: normal normal normal 23px/28px Black Han Sans;
   letter-spacing: 0px;
   text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 
@@ -336,29 +374,35 @@ header .nav_icon{
 /*Footer------------------*/
 footer{
   background: var(--dark-gray) 0% 0% no-repeat padding-box;
-  margin-top: 54px;
+  margin-top: 80px;
   color: var(--white);
   padding-left: 150px;
   padding-right: 150px;
-  padding-bottom: 24px;
+  padding-bottom: 10px;
   width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
-footer h4{
+footer .footer_nav div p{
   color: var(--white);
   text-align: left;
   font: normal normal normal 15px/20px Roboto;
   letter-spacing: 0px;
+  margin-right: 20px;
 }
 
-footer p{
+.footer_below p, .footer_nav-p{
   color: var(--white);
   text-align: left;
   font: normal normal 300 14px/19px Roboto;
   letter-spacing: 0px;
 }
 
+
+
 .footer_nav{
+  margin-top: 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -370,18 +414,17 @@ footer p{
   display: flex;
 }
 
-.footer_nav div h4{
-  margin-right: 20px;
-}
-
 footer img{
   background: var(--dark-gray) 0% 0% no-repeat padding-box;
   display: flex;
-  margin-top: 64px;
+  margin-top: 74px;
   margin-bottom: 64px;
   width: 192px;
   height: 44px;
 }
+
+
+
 
 
 
@@ -407,6 +450,31 @@ footer img{
   --medium_yellow: #FAA61A;
 }
 
+nav h4:hover {
+  color: var(--medium_yellow);
+}
+
+.nav_button:hover{
+  width: 128px;
+  height: 40px;
+  border-radius: 4px;
+  font: normal normal bold 14px/18px Roboto;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  text-align: center;
+  background: var(--medium_yellow) 0% 0% no-repeat padding-box;
+  border: none;
+  color: var(--dark-blue-gray);
+}
+
+nav.animate{
+  top: -150px;
+}
+
+nav.sticky{
+  top: 0;
+  z-index: 99;
+}
 
 
 
@@ -438,49 +506,525 @@ footer img{
 
   /*Nav----*/
   nav {
+    position: fixed;
+    left: initial;
+    top: 0;
+    transition: top .6s;
+    overflow: hidden;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0px;
+    width: 100%;
+    height: 48px;
+    background: var(--dark-gray) 0% 0% no-repeat padding-box;
+    border-radius: 0px;
+    padding: 10px;
+  }
+
+  nav h4 {
+    display: none;
+  }
+
+  header .nav_icon {
+    display: none;
+  }
+
+  .nav_button {
+    display: none;
+  }
+
+  .nav_bar_icon{
+    display: flex;
+    width: 44px;
+    height: 22px;
+    opacity: 1;
+    margin-right: 17px;
+  }
+
+  .nav_logo {
+    margin-left: 32px;
+    width: 138px;
+    height: 32px;
+  }
+
+  .header_nav-index {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 12px;
+  }
+
+
+
+  .header_infoHBar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+  }
+
+  .header_infoHBar img {
+    content: url("../img/Mobile/Group 2083@2x.png");
+    width: 300px;
+    height: 33px;
+    margin-right: 0px;
+  }
+
+  /*Center----*/
+  .header_center {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 43px;
+  }
+
+
+  .header_center-left, .header_center-left img {
+    width: 98px;
+    height: 252px;
+    content: url("../img/Mobile/METER mobile@2x.png");
+  }
+
+  .header_center-right{
+    display: flex;
+    flex-direction: column;
+    width: 207px;
+    margin-top: 20px;
+    justify-content: flex-start;
+  }
+
+  .header_center-right img{
+    content: url("../img/Mobile/title mobile@2x.png");
+    width: 207px;
+    height: 167px;
+  }
+
+  .header_center-rightUp{
+    margin-bottom: 4px;
+  }
+
+  .header_center-rightDw{
+    display: none;
+  }
+
+  .header_center-right p {
+    width: 189px;
+    height: 33px;
+    text-align: left;
+    font: normal normal 300 13px/15px Roboto;
+    letter-spacing: -0.25px;
+    color: var(--white);
+    margin-top: 0px;
+    margin-left: 10px;
+  }
+
+  .header_info-middleCover{
+    width: 301px;
+    height: 89px;
+    align-self: center;
+    background: #00152C 0% 0% no-repeat padding-box;
+    border-radius: 3px;
+    opacity: 0.77;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -100px;
+    margin-top: 42px;
+  }
+
+  .header_info-middle{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 13px;
+    margin-left: 13px;
+    color: var(--white);
+    font: normal normal 300 13px/17px Roboto;
+    letter-spacing: -0.08px;
+    text-align: center;
+  }
+
+
+
+
+
+  /*Navigation Bar*--------------------- */
+  .offcanvas-header{
+    background-color: var(--dark-gray);
+    display: flex;
+    height: 44px;
+  }
+
+  .my_btn-close{
+    width: 38px;
+    height: 38px;
+  }
+
+  .offcanvas-body{
+    padding-right: 37px;
+    background-color: var(--dark-gray);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .offcanvas-body ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .offcanvas-body ul li{
+    color: var(--white);
+    text-decoration: none;
+    font: normal normal normal 15px/20px Roboto;
+    margin-top: 22px;
+  }
+
+  .navBar_buttonGetUp{
+    margin-top: 50px;
+    width: 129px;
+    height: 42px;
+    background: transparent;
+    border-radius: 4px;
+    border: solid 2px var(--white);
+    color: var(--white);
+    text-align: center;
+    font: normal normal bold 14px/18px Roboto;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+  }
+
+  .navigationBar_socialMedia{
+    width: 129px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+  }
+
+
+
+  /*Section cards-------------------------> */
+  .SectionCards {
+    margin-left: 42px;
+    margin-right: 42px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    flex-direction: column;
+    margin-top: -68px;
+  }
+
+  .SectionCards_cardCover {
+    border-radius: 4px;
+    margin-top: 16px;
+    width: 286px;
+    background-color: var(--dark-gray);
+    border: solid 8px var(--dark-gray);
+    display: grid;
+  }
+
+  .SectionCards_card {
+    border-radius: 4px;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/Secondary texture container.png");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .SectionCards_card img:nth-child(1) {
+    width: 72px;
+    height: 63px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+
+  .SectionCards_card-iconArow {
+    width: 46px;
+    height: 25px;
+    justify-self: flex-end;
+    margin-top: auto;
+    margin-bottom: 20px;
+  }
+
+  .SectionCards_card h3 {
+    margin-left: 12px;
+    margin-right: 12px;
+    text-align: center;
+    font: normal normal normal 16px/28px Roboto;
+    letter-spacing: 0px;
+    color: var(--white);
+    text-transform: uppercase;
+    margin-bottom: 0px;
+  }
+
+  .SectionCards_card h2 {
+    margin-top: 0px;
+    margin-left: 12px;
+    margin-right: 12px;
+    color: var(--white);
+    text-align: center;
+    font: normal normal normal 18px/27px Black Han Sans;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
+
+
+
+
+
+  /*Section update and References ----------------------*/
+  /*Update*/
+  .SectionUpdateRef {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 47px;
+    margin-right: 47px;
+  }
+
+  .SectionUpdateRef_update {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .SectionUpdateRef_update h2 {
+    color: var(--dark-blue-gray);
+    text-align: center;
+    font: normal normal normal 23px/28px Black Han Sans;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+  }
+
+  .SectionUpdateRef_update p {
+    width: auto;
+    color: var(--dark-blue-gray);
+    text-align: center;
+    font: normal normal normal 16px/24px Roboto;
+    letter-spacing: 0px;
+  }
+
+  .SectionUpdateRef_update button {
+    background: var(--medium_yellow) 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    border: none;
+    color: var(--dark-blue-gray);
+    text-align: center;
+    font: normal normal bold 15px/20px Roboto;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    margin-top: 16px;
+    width: 90px;
+    height: 42px;
+  }
+
+  /*References */
+  .SectionUpdateRef_refer {
+    margin-top: 54px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .SectionUpdateRef_refer p {
+    color: var(--dark-blue-gray);
+    text-align: left;
+    font: normal normal 300 14px/19px Roboto;
+    letter-spacing: 0px;
+    margin-bottom: 0px;
+  }
+
+  .SectionUpdateRef_refer strong {
+    font: normal normal bold 14px/19px Roboto;
+  }
+
+
+
+
+
+  /*Footer------------------*/
+  footer{
+    background: var(--dark-gray) 0% 0% no-repeat padding-box;
+    margin-top: 0px;
+    color: var(--white);
+    padding-left: 37px;
+    padding-right: 37px;
+    padding-bottom: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer .footer_nav div p{
+    color: var(--white);
+    text-align: left;
+    font: normal normal normal 15px/20px Roboto;
+    letter-spacing: 0px;
+    margin-right: 0px;
+    margin-top: 22px;
+    margin-bottom: 0px;
+  }
+
+  .footer_below p, .footer_nav-p{
+    color: var(--white);
+    text-align: left;
+    font: normal normal 300 14px/19px Roboto;
+    letter-spacing: 0px;
+    margin-top: 32px;
+  }
+
+
+
+  .footer_nav{
+    margin-top: 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .footer_nav div{
+    justify-content: space-between;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer img{
+    background: var(--dark-gray) 0% 0% no-repeat padding-box;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    width: 192px;
+    height: 44px;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   My custom Tablets styles
+   ========================================================================== */
+@media only screen and (max-width: 1000px) and (min-width: 601px) {
+
+  /*Header--------------------------------------> */
+  header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 824px;
+    opacity: 1;
+    background-image: url("../img/Mask Group 29@2x.png");
+    background-size: cover;
+  }
+
+  /*Nav----*/
+  nav {
     align-self: center;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 20px;
-    width: 100%;
-    height: 48px;
+    width: 90%;
+    height: 55px;
+    margin-left: 42px;
+    margin-right: 42px;
     background: var(--dark-gray) 0% 0% no-repeat padding-box;
-    border-radius: 0px;
+    border-radius: 39px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    transition: top .6s;
+    overflow: hidden;
   }
 
   nav h4 {
-    display: none;
     width: 94px;
-    margin-right: 25px;
-    margin-left: 25px;
+    margin-right: 2px;
+    margin-left: 2px;
     color: var(--white);
     text-align: center;
-    font: normal normal normal 15px/20px Roboto;
+    font: normal normal 300 10px/13px Roboto;
     letter-spacing: 0px;
   }
 
   header .nav_icon {
-    width: 24px;
-    height: 24px;
-    margin-left: 8px;
-    margin-right: 8px;
+    width: 14px;
+    height: 14px;
+    margin-left: 2px;
+    margin-right: 2px;
   }
 
   .nav_button {
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: none;
-    width: 130px;
-    height: 42px;
+    margin-left: 2px;
+    width: 68px;
+    height: 27px;
     background: transparent;
-    background-image: url("../img/Get Updates btn.svg");
+    border-radius: 4px;
+    border: solid 2px var(--white);
+    color: var(--white);
+    text-align: center;
+    font: normal normal bold 8px/12px Roboto;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+  }
+
+  .nav_button:hover{
+    width: 68px;
+    height: 27px;
+    font: normal normal bold 8px/12px Roboto;
+  }
+
+  .nav_bar_icon {
+    display: none;
   }
 
   .nav_logo {
     margin-left: 32px;
-    width: 192px;
-    height: 44px;
+    width: 92px;
+    height: 21px;
   }
 
   .header_nav-index {
@@ -494,7 +1038,7 @@ footer img{
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    margin-top: 20px;
+    margin-top: 87px;
   }
 
   .header_infoHBar img {
@@ -504,38 +1048,69 @@ footer img{
   }
 
   /*Center----*/
-  .header_center {
+  .header_center{
     display: flex;
     justify-content: space-around;
-    margin-top: 187px;
+    align-items: center;
+    margin-top: 50px;
+    width: 100%;
   }
 
-  .header_center-left, .header_center-left img {
-    width: 183px;
-    height: 464px;
+  .header_center-right{
+    margin-left: 50px;
+    margin-top: -20px;
+    width: 711px;
   }
 
-  .header_center-right, .header_center-right img {
-    width: 207px;
-    height: 167px;
-  }
-
-  .header_center-right p {
-    width: 511px;
-    height: 32px;
+  .header_center-right p{
+    margin-left: 44px;
+    width: 482px;
     text-align: left;
-    font: normal normal 300 24px/28px Roboto;
-    letter-spacing: -0.14px;
+    font: normal normal 300 18px/20px Roboto;
+    letter-spacing: -0.25px;
     color: var(--white);
   }
 
-  /*Section cards-------------------------> */
+  .header_center-rightUp{
+    margin-bottom: -28px;
+  }
+
+  .header_center-rightDw{
+    margin-top: 20px;
+  }
+
+  .header_center-left, .header_center-left img{
+    width: 143px;
+    height: 364px;
+    margin-left: 20px;
+  }
+
+
+  .header_center-right img{
+    width: 511px;
+    height: 186px;
+
+  }
+
+
+  .header_info-middleCover{
+    display: none;
+  }
+
+
+
+
+
+
+
+  /*Section cards------   -------------------> */
   .SectionCards {
     margin-left: 42px;
     margin-right: 42px;
     display: flex;
     justify-content: space-between;
     border-radius: 4px;
+    flex-wrap: wrap;
   }
 
   .SectionCards_cardCover {
@@ -545,10 +1120,13 @@ footer img{
     background-color: var(--dark-gray);
     border: solid 8px var(--dark-gray);
     display: grid;
+    margin-left: 5px;
+    margin-right: 5px;
   }
 
   .SectionCards_card {
     width: 100%;
+    border-radius: 4px;
     height: 100%;
     background-image: url("../img/Secondary texture container.png");
     background-repeat: no-repeat;
@@ -568,7 +1146,8 @@ footer img{
     width: 46px;
     height: 25px;
     justify-self: flex-end;
-    margin-bottom: 8px;
+    margin-bottom: 20px;
+    margin-top: auto;
   }
 
   .SectionCards_card h3 {
@@ -591,6 +1170,7 @@ footer img{
     font: normal normal normal 23px/28px Black Han Sans;
     letter-spacing: 0px;
     text-transform: uppercase;
+    margin-bottom: 20px;
   }
 
   /*Section update and References ----------------------*/
@@ -641,8 +1221,8 @@ footer img{
   /*References */
   .SectionUpdateRef_refer {
     margin-top: 54px;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 70px;
+    margin-right: 70px;
   }
 
   .SectionUpdateRef_refer p {
@@ -659,22 +1239,25 @@ footer img{
   /*Footer------------------*/
   footer {
     background: var(--dark-gray) 0% 0% no-repeat padding-box;
-    margin-top: 54px;
+    margin-top: 80px;
     color: var(--white);
-    padding-left: 150px;
-    padding-right: 150px;
-    padding-bottom: 24px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 10px;
     width: 100%;
+    display: flex;
+    flex-direction: column;
   }
 
-  footer h4 {
+  footer .footer_nav div p {
     color: var(--white);
     text-align: left;
     font: normal normal normal 15px/20px Roboto;
     letter-spacing: 0px;
+    margin-right: 20px;
   }
 
-  footer p {
+  .footer_below p, .footer_nav-p {
     color: var(--white);
     text-align: left;
     font: normal normal 300 14px/19px Roboto;
@@ -682,6 +1265,7 @@ footer img{
   }
 
   .footer_nav {
+    margin-top: 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -693,20 +1277,25 @@ footer img{
     display: flex;
   }
 
-  .footer_nav div h4 {
-    margin-right: 20px;
-  }
-
   footer img {
     background: var(--dark-gray) 0% 0% no-repeat padding-box;
     display: flex;
-    margin-top: 64px;
+    margin-top: 74px;
     margin-bottom: 64px;
     width: 192px;
     height: 44px;
   }
-
 }
+
+
+
+
+
+
+
+
+
+
 
 
 

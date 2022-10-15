@@ -2,81 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9dba4c05-9de0-4bf8-96ce-0843641f9540" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/Mobile/Asset 2@4x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/Mobile/Asset 2@4x@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/Mobile/BACKGROUND mobile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/Mobile/BACKGROUND mobile@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/Mobile/BioXcel_Logo_KO-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/Mobile/BioXcel_Logo_KO-1@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/Mobile/BioXcel_Logo_KO.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/Mobile/BioXcel_Logo_KO@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/Mobile/Group 2083.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/Mobile/Group 2083@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/Mobile/METER mobile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/Mobile/METER mobile@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/Mobile/Secondary texture container-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/Mobile/Secondary texture container-1@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/Mobile/Secondary texture container-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/Mobile/Secondary texture container-2@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/Mobile/Secondary texture container-3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/Mobile/Secondary texture container-3@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/Mobile/Secondary texture container.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/Mobile/Secondary texture container@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/Mobile/title mobile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/Mobile/title mobile@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/Secondary texture container.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/Secondary texture container@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/bootstrap-grid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/bootstrap-grid.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/bootstrap-grid.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/bootstrap-grid.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/bootstrap-grid.rtl.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/bootstrap-grid.rtl.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/bootstrap-grid.rtl.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/bootstrap-grid.rtl.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/bootstrap-reboot.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/bootstrap-reboot.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/bootstrap-reboot.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/bootstrap-reboot.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/bootstrap-reboot.rtl.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/bootstrap-reboot.rtl.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/bootstrap-reboot.rtl.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/bootstrap-reboot.rtl.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/bootstrap-utilities.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/bootstrap-utilities.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/bootstrap-utilities.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/bootstrap-utilities.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/bootstrap-utilities.rtl.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/bootstrap-utilities.rtl.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/bootstrap-utilities.rtl.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/bootstrap-utilities.rtl.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/bootstrap.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/bootstrap.rtl.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/bootstrap.rtl.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/bootstrap.rtl.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/bootstrap.rtl.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/Mobile/Arrow.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/Mobile/ID_icon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/Mobile/Intervention_icon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/Mobile/Strategies_icon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/Mobile/menu_icon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/bootstrap.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/bootstrap.bundle.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/bootstrap.bundle.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/bootstrap.bundle.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/bootstrap.esm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/bootstrap.esm.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/bootstrap.esm.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/bootstrap.esm.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/bootstrap.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/bootstrap.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ProjectTestHome.iml" afterPath="$PROJECT_DIR$/.idea/ProjectTestHome.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/Mobile/close_mobile.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/Mobile/menu_mobile.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/main.css" afterPath="$PROJECT_DIR$/src/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
@@ -93,12 +20,22 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="58" column="12" lean-forward="false" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
+            <state relative-caret-position="289">
+              <caret line="47" column="35" lean-forward="true" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -107,8 +44,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="600" column="1" lean-forward="true" selection-start-line="600" selection-start-column="1" selection-end-line="600" selection-end-column="1" />
+            <state relative-caret-position="0">
+              <caret line="453" column="30" lean-forward="false" selection-start-line="453" selection-start-column="30" selection-end-line="453" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -123,6 +60,13 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>cover</find>
+      <find>contain</find>
+      <find>id=</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -130,8 +74,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/nav_pc.html" />
-        <option value="$PROJECT_DIR$/src/js/main.js" />
+        <option value="$PROJECT_DIR$/src/img/Mobile/menu_mobile.svg" />
+        <option value="$PROJECT_DIR$/src/img/Mobile/close_mobile.svg" />
         <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/src/js/main.js" />
         <option value="$PROJECT_DIR$/src/css/main.css" />
       </list>
     </option>
@@ -171,6 +117,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -206,8 +154,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -248,7 +194,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665716769695</updated>
-      <workItem from="1665716774084" duration="28493000" />
+      <workItem from="1665716774084" duration="33706000" />
+      <workItem from="1665776683522" duration="42228000" />
     </task>
     <task id="LOCAL-00001" summary="Init the project and a first html structuring">
       <created>1665721215182</created>
@@ -271,32 +218,39 @@
       <option name="project" value="LOCAL" />
       <updated>1665724685374</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Starting the responsive design">
+      <created>1665767713567</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665767713567</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28493000" />
+    <option name="totallyTimeSpent" value="75934000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24851191" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -336,13 +290,38 @@
     <MESSAGE value="Init the project and a first html structuring" />
     <MESSAGE value="Add image resources" />
     <MESSAGE value="Add others css files and image resources" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add others css files and image resources" />
+    <MESSAGE value="Starting the responsive design" />
+    <option name="LAST_COMMIT_MESSAGE" value="Starting the responsive design" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="64" column="10" lean-forward="true" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9639">
+          <caret line="567" column="18" lean-forward="true" selection-start-line="567" selection-start-column="18" selection-end-line="567" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/sectional.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
@@ -381,7 +360,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3519">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -397,29 +375,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="sourcemapFileViewerProvider">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/img/bootstrap.min.js.map">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/bootstrap.min.js.map" />
     <entry file="file://$PROJECT_DIR$/src/js/bootstrap.min.js.map">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="sourcemapFileViewerProvider">
@@ -434,22 +400,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/nav_pc.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="31" lean-forward="false" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nav_pc.html" />
     <entry file="file://$PROJECT_DIR$/src/img/Mobile/Arrow.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -478,18 +429,80 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/Mobile/menu_icon.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/Mobile/Group 2083.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/Mobile/METER mobile.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/Mobile/METER mobile@2x.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/Mobile/BioXcel_Logo_KO@2x.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/title.ong.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/title.ong@2x.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/Mobile/menu_mobile.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="48" lean-forward="false" selection-start-line="0" selection-start-column="48" selection-end-line="0" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/Mobile/close_mobile.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="53" lean-forward="false" selection-start-line="0" selection-start-column="53" selection-end-line="0" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="58" column="12" lean-forward="false" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
+        <state relative-caret-position="289">
+          <caret line="47" column="35" lean-forward="true" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="600" column="1" lean-forward="true" selection-start-line="600" selection-start-column="1" selection-end-line="600" selection-end-column="1" />
+        <state relative-caret-position="0">
+          <caret line="453" column="30" lean-forward="false" selection-start-line="453" selection-start-column="30" selection-end-line="453" selection-end-column="30" />
           <folding />
         </state>
       </provider>

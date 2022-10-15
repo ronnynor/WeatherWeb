@@ -31,9 +31,9 @@
 <body>
 
   <!--Header------------------------------------------------------>
-  <header>
-    <!--Navigation Bar-->
-    <nav>
+  <header id="headerID">
+    <!--Navigation-->
+    <nav id="navId">
       <img class="nav_logo" src="img/BioXcel_Logo_KO@2x.png" alt="Company Logo">
       <div class="header_nav-index">
         <img class="nav_icon" src="img/Home.svg" alt="Home Logo">
@@ -41,11 +41,12 @@
         <h4>Cooperative De-escalation</h4>
         <h4>Intervention Approaches</h4>
         <h4>Expert Perspectives</h4>
-        <button class="nav_button"></button>
+        <button class="nav_button">Get Updates</button>
         <img class="nav_icon" src="img/Facebook_icon.svg" alt="Facebook icon">
         <img class="nav_icon" src="img/LinkedIN_icon.svg" alt="Linkedin icon">
         <img class="nav_icon" src="img/Twitter_icon.svg" alt="Twitter icon">
         <img class="nav_icon" src="img/Group%201934.svg" alt="Gmail icon">
+        <img class="nav_bar_icon" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavigation" src="img/Mobile/menu_mobile.svg" aria-controls="offcanvasNavigation">
       </div>
     </nav>
     <!--Horizontal Bar Info-->
@@ -58,11 +59,43 @@
         <img src="img/Mask%20Group%2027@2x.png" alt="Thermometer">
       </div>
       <div class="header_center-right">
+        <p class="header_center-rightUp">In patients with bipolar disorders or schizophrenia,</p>
         <img src="img/title.ong@2x.png" alt="Comercial phrase">
-        <p>Learn how identification and intervention can help keep the situation cool. Help patients regain control safely, using a cooperative approach.<sup>1,2</sup></p>
+        <p class="header_center-rightDw">Learn how identification and intervention can help keep the situation cool. Help patients regain control safely, using a cooperative approach.<sup>1,2</sup></p>
       </div>
     </div>
+    <div class="header_info-middleCover">
+      <h3 class="header_info-middle">Learn how identification and intervention can help keep the situation cool. Help patients regain control safely, using a cooperative approach.<sup>1,2</sup></h3>
+    </div>
   </header>
+
+
+
+
+
+  <!--Navigation Bar-->
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavigation" aria-labelledby="offcanvasNavigationLabel">
+    <div class="offcanvas-header">
+      <img class="nav_logo" src="img/BioXcel_Logo_KO@2x.png" alt="Company Logo">
+      <img type="button" class="my_btn-close" data-bs-dismiss="offcanvas" aria-label="Close" src="img/Mobile/close_mobile.svg">
+    </div>
+    <div class="offcanvas-body">
+      <ul>
+        <li><img class="nav_icon" src="img/Home.svg" alt="Home Logo"></li>
+        <li><a>Identification of Agitation</a></li>
+        <li><a>Cooperative De-escalation</a></li>
+        <li><a>Intervention Approaches</a></li>
+        <li><a>Expert Perspectives</a></li>
+      </ul>
+      <button class="navBar_buttonGetUp">Get Updates</button>
+      <div class="navigationBar_socialMedia">
+        <img class="nav_icon" src="img/Facebook_icon.svg" alt="Facebook icon">
+        <img class="nav_icon" src="img/LinkedIN_icon.svg" alt="Linkedin icon">
+        <img class="nav_icon" src="img/Twitter_icon.svg" alt="Twitter icon">
+        <img class="nav_icon" src="img/Group%201934.svg" alt="Gmail icon">
+      </div>
+    </div>
+  </div>
 
 
 
@@ -121,7 +154,7 @@
     </div>
     <div class="SectionUpdateRef_refer">
       <p><strong>References:</strong></p>
-      <p><strong>1.</strong> Richmond JS, Berlin JS, Fishkind AB, et al. Verbal de-escalation of the agitated patient: consensus statement of the American Association for Emergency Psychiatry Project BETA De-escalation Workgroup. West J Emerg Med. 2012;13(1):17-25. doi:10.5811/westjem.2011.9.6864 2. Martinez-Raga J, Amore M, Di Sciascio G, et al. 1st international experts’ meeting on agitation: conclusions regarding the current and ideal management paradigm of agitation. Front Psychiatry. 2018;9:54. doi:10.3389/fpsyt.2018.00054</p>
+      <p><strong>1.</strong> Richmond JS, Berlin JS, Fishkind AB, et al. Verbal de-escalation of the agitated patient: consensus statement of the American Association for Emergency Psychiatry Project BETA De-escalation Workgroup. <i>West J Emerg Med</i>. 2012;13(1):17-25. doi:10.5811/westjem.2011.9.6864 <strong>2.</strong> Martinez-Raga J, Amore M, Di Sciascio G, et al. 1st international experts’ meeting on agitation: conclusions regarding the current and ideal management paradigm of agitation. <i>Front Psychiatry</i>. 2018;9:54. doi:10.3389/fpsyt.2018.00054</p>
     </div>
   </section>
 
@@ -133,15 +166,17 @@
   <footer>
     <div class="footer_nav">
       <div>
-        <h4>Privacy Policy</h4>
-        <h4>Disclaimer</h4>
-        <h4>Contact Us</h4>
-        <h4>Site Map</h4>
+        <p>Privacy Policy</p>
+        <p>Disclaimer</p>
+        <p>Contact Us</p>
+        <p>Site Map</p>
       </div>
-      <p>This website contains information intended for US healthcare professionals only.</p>
+      <p class="footer_nav-p">This website contains information intended for US healthcare professionals only.</p>
     </div>
-    <img src="img/BioXcel_Logo_KO@2x.png" alt="Company logo">
-    <p>© 2021 BioXcel Therapeutics, Inc. All rights reserved. US-NP-2100047 07-2021</p>
+    <div class="footer_below">
+      <img src="img/BioXcel_Logo_KO@2x.png" alt="Company logo">
+      <p>© 2021 BioXcel Therapeutics, Inc. All rights reserved. US-NP-2100047 07-2021</p>
+    </div>
   </footer>
 
 
@@ -149,8 +184,9 @@
 
   <script src="js/vendor/modernizr-{{MODERNIZR_VERSION}}.min.js"></script>
   <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
   <script src="js/bootstrap.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="js/main.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
@@ -158,7 +194,7 @@
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async></script>
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
 
 
 
