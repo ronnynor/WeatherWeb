@@ -11,4 +11,4 @@ ser descargado de AdobeXD
 
 
 La página puede visualizarse en:
- http://qnecesitas.nat.cu/TestPage/src/index.html
+ http://qnecesitas.nat.cu/TestPage.html
