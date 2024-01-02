@@ -1,14 +1,5 @@
-Proyecto finalizado dejando algunos detalles
-que no fueron corregidos o analizados por ser
-un página para para demostrar conocimientos y
-no para producción:
+#WeatherPage
 
-_Algunas animaciones no fueron implementadas
+Very basic example project for primarily showcasing graphic design capabilities, as well as HTML, CSS, and JS skills.
 
-_El ícono que abre el menú lateral del diseño
-mobile no es el mismo porque el original no pudo
-ser descargado de AdobeXD
-
-
-La página puede visualizarse en:
- http://qnecesitas.nat.cu/TestPage.html
+The example can be viewed at https://qnecesitas.nat.cu/WeatherPage.html.
